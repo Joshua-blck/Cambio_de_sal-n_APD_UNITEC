@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #F5FCFF;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.formulario-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 400px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #333333;
+}
+
+h3 {
+    color: #FFFFFF;
+	font-size: 14px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="time"] {
+    margin-right: 5px;
+}
+
+.horario {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background: #ffa500;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #e69500;
+}
+
+textarea {
+    height: 100px;
+}
+
+
+.banner {
+    background-color: #0D6FB8; 
+    color: white;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.top-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.bottom-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.formulario-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 400px;
+}
+
+.imagen-principal {
+    display: flex ;
+    max-width: 10%; /* Asegura que la imagen no sea más ancha que su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    
+}
+
+.imagen-principal {
+    max-width: 10%;
+}
